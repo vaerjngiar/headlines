@@ -4,5 +4,5 @@ execfile(activate_this, dict(__file__=activate_this))
 import sys
 sys.path.insert(0, '/var/www/headlines')
 
-from myfirstapp import app as application
+from headlines import app as application
 
